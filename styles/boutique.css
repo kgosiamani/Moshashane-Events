@@ -1,0 +1,302 @@
+/* Boutique Hero Section */
+.boutique-hero {
+    padding: 120px 0 80px;
+    background-color: var(--mustard-gold);
+    color: var(--text-light);
+    text-align: center;
+}
+
+.boutique-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.boutique-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Boutique Introduction Section */
+.boutique-intro {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+}
+
+.boutique-intro h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--dark-bg);
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.feature {
+    background-color: rgba(212, 175, 55, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--mustard-gold);
+}
+
+.feature h3 {
+    color: var(--mustard-gold);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.intro-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Products Section */
+.products {
+    padding: 5rem 0;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--mustard-gold);
+}
+
+.products > p {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.product-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.category {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-image {
+    height: 200px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.category h3 {
+    color: var(--mustard-gold);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.category p {
+    margin-bottom: 1.5rem;
+}
+
+/* Collection Sections */
+.collection {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+}
+
+.collection.alt {
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+}
+
+.collection h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--dark-bg);
+}
+
+.collection.alt h2 {
+    color: var(--mustard-gold);
+}
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: var(--text-light);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.collection.alt .product-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.product-card h3 {
+    padding: 1rem 1.5rem 0;
+    color: var(--dark-bg);
+    font-size: 1.3rem;
+}
+
+.collection.alt .product-card h3 {
+    color: var(--mustard-gold);
+}
+
+.product-description {
+    padding: 0 1.5rem;
+    margin: 0.5rem 0 1rem;
+    color: #555;
+}
+
+.collection.alt .product-description {
+    color: #ccc;
+}
+
+.product-options {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: bold;
+    color: var(--mustard-gold);
+}
+
+.product-card button {
+    width: calc(100% - 3rem);
+    margin: 0 1.5rem 1.5rem;
+}
+
+/* Boutique Testimonial Section */
+.boutique-testimonial {
+    padding: 5rem 0;
+    background-color: var(--mustard-gold);
+    color: var(--text-light);
+    text-align: center;
+}
+
+.boutique-testimonial blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.boutique-testimonial cite {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Boutique CTA Section */
+.boutique-cta {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+    text-align: center;
+}
+
+.boutique-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-bg);
+}
+
+.boutique-cta p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    color: #555;
+}
+
+/* Responsive Design for Boutique Page */
+@media screen and (max-width: 968px) {
+    .boutique-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .intro-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .boutique-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .boutique-hero p {
+        font-size: 1rem;
+    }
+    
+    .boutique-intro h2,
+    .products h2,
+    .collection h2,
+    .boutique-cta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .product-categories {
+        grid-template-columns: 1fr;
+    }
+    
+    .collection-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .boutique-testimonial blockquote {
+        font-size: 1.2rem;
+    }
+}
